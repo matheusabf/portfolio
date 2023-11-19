@@ -8,7 +8,7 @@
             <ul class="nav-info">
               <li class="nav-info-label">Email</li>
               <li>
-                <a :href="`mailto:${email}`">{{ email }}</a>
+                <a href="mailto:matheus.abentof@gmail.com">{{ email }}</a>
               </li>
             </ul>
             <ul class="nav-info">
@@ -117,6 +117,7 @@ nav {
         flex-wrap: wrap;
         @include media('<=654px') {
           justify-content: space-between;
+          flex-direction:column;
         }
         .nav-info {
           padding: 0;
@@ -175,4 +176,13 @@ nav {
 .icons img{
   width:50px;
 }
+@media (max-width: 600px) {
+    .nav-info {
+      display: block; /* Muda para bloco em dispositivos móveis */
+    }
+
+    .nav-info-label {
+      margin-bottom: 5px; /* Adiciona espaço entre os rótulos e os links */
+    }
+  }
 </style>
