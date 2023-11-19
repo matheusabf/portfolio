@@ -46,6 +46,11 @@ export default {
   .row {
     flex-direction: column;
     justify-content: center;
+    @include media('<=654px') {
+        margin-top: 20px;
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+      }
     h2 {
       font-size: 3rem;
       line-height: 4.2rem;
@@ -57,7 +62,7 @@ export default {
         font-size: 2.4rem;
         line-height: 3rem;
       }
-      @include media('<=phone') {
+      @include media('<=654px') {
         margin-top: 72px;
         font-size: 1.7rem;
         line-height: 2.2rem;
