@@ -47,7 +47,6 @@ export default {
     flex-direction: column;
     justify-content: center;
     @include media('<=654px') {
-        margin-top: 20px;
         font-size: 1.7rem;
         line-height: 2.2rem;
       }
