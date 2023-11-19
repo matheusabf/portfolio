@@ -39,6 +39,7 @@ body {
     padding: 0 32px;
     @include media('<=phone') {
       padding: 0 16px;
+      margin-top: 20px;
     }
   }
   .v-center {
