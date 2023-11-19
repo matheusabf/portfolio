@@ -12,9 +12,9 @@
               </li>
             </ul>
             <ul class="nav-info">
-              <li class="nav-info-label">WhatsApp</li>
+              <li class="nav-info-label" >WhatsApp</li>
               <li>
-                <a href="https://web.whatsapp.com/send?phone=5511975507168" style="padding-bottom:300px;" target="blank">{{ phone }}</a>
+                <a href="https://web.whatsapp.com/send?phone=5511975507168" target="blank">{{ phone }}</a>
               </li>
             </ul>
             <ul class="nav-info">
@@ -114,7 +114,7 @@ nav {
       }
       .nav-infos {
         display: flex;
-        flex-wrap: wrap;
+        width:100%;
         @include media('<=654px') {
           justify-content: space-between;
           flex-direction:column;
@@ -135,6 +135,7 @@ nav {
             list-style: none;
             font-size: 1.4rem;
             margin-bottom: 1.2rem;
+            padding-right: 25px;
             @include media('<=tablet') {
               font-size: 1.2rem;
               margin-bottom: 1rem;
