@@ -14,7 +14,7 @@
             <ul class="nav-info">
               <li class="nav-info-label" >WhatsApp</li>
               <li>
-                <a href="https://web.whatsapp.com/send?phone=5511975507168" target="blank">{{ phone }}</a>
+                <a href="https://api.whatsapp.com/send?phone=5511975507168" target="blank">{{ phone }}</a>
               </li>
             </ul>
             <ul class="nav-info">
