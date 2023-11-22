@@ -95,7 +95,7 @@ nav {
         width: 100%;
       }
       &:last-child {
-        width: 55%;
+        width: 85%;
         @include media('<=654px') {
           width: 100%;
         }
