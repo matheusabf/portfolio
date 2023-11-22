@@ -50,7 +50,7 @@ export default {
 nav {
   left: 0;
   top: -1px;
-  width: 100%;
+  width: 150%;
   height: 100%;
   z-index: 1;
   display: none;
