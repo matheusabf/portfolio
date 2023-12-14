@@ -22,7 +22,7 @@ export const VITE_APP_CONFIG = {
       subtitle: 'Currículo',
       title: 'Clique aqui para baixar meu currículo',
       img: 'img2',
-      link: 'https://cdn.discordapp.com/attachments/819428205815267329/1175694627144208495/Curriculo_Matheus.pdf?ex=656c29f2&is=6559b4f2&hm=50dca316fb123eb6c903c4b5af5fdd098e3e036123230d35c51d9157e1c31500&',
+      link: 'https://cdn.discordapp.com/attachments/1176727129245896905/1184893660416979025/Matheus_Alves_Bento_Ferreira.docx?ex=658da136&is=657b2c36&hm=b6ae96c808052d3ae074204ec90b30b0e09adab571b6b77337f67bfd138e5cf6&',
     },
     {
       id: 3,
